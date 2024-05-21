@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Pojištění" />
+    <meta name="keywords" content="Pojištění" />
+    <meta name="author" content="Hello world!" />
+    <title>Pojištěnci</title>
+    <link rel="stylesheet" href="styl.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Pojištěnci</h1>
+            
+        </header>
+        <main>
+            <section>
+                <h2>Pojištěnci</h2>
+                <table id="pojistenci-table">
+                    <thead>
+                        <tr>
+                            <th>Jméno a příjmení</th>
+                            <th>Telefon</th>
+                            <th>Věk</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <h2>Nový pojištěnec</h2>
+                <form id="pojistenec-form">
+                    <div>
+                        <label for="jmeno">Jméno</label>
+                        <input type="text" id="jmeno" name="jmeno" required>
+                    </div>
+                    <div>
+                        <label for="prijmeni">Příjmení</label>
+                        <input type="text" id="prijmeni" name="prijmeni" required>
+                    </div>
+                    <div>
+                        <label for="vek">Věk</label>
+                        <input type="number" id="vek" name="vek" required>
+                    </div>
+                    <div>
+                        <label for="telefon">Telefon</label>
+                        <input type="text" id="telefon" name="telefon" required>
+                    </div>
+                    <button type="submit">Uložit</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
